@@ -1,0 +1,39 @@
+# Les dépendances 
+node_modules/
+
+# Les variables d'environnement 
+.env
+.env.local
+.env.*
+Config/.env
+Config/.env.local
+Config/.env.*
+
+# Uploads & generated files
+uploads/
+images/
+*.pem
+*.key
+*.cert
+*.p12
+
+# Les fichiers de logs
+logs
+*.log
+npm-debug.log*
+
+# Les fichiers spécifiques aux éditeurs 
+.vscode/
+.idea/
+.DS_Store
+
+# Fichiers d'export temporaires
+exports/
+*.pdf
+*.xlsx
+# Visual Studio Code
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
